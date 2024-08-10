@@ -67,3 +67,75 @@ body{
 #social-icon #tiktok i{
     color: black;
 }
+/* ==================== HEADER CONTENT SECTION======================= */
+#header-left{
+    max-width: 50%;
+    max-height: auto;
+    position: relative;
+}
+#header-left img{
+    max-width: 100%;
+}
+#header-left-content{
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    transform: translate(-45%, -40%);
+}
+#header-left-content h1{
+    font-size: 4rem;
+    font-weight: bolder;
+    background-image: linear-gradient(rgb(249, 72, 178), rgb(135, 88, 241));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#header-left-content ul{
+    margin: 1rem 0 2rem 0;
+}
+#header-left-content ul li{
+    padding: .5rem 0;
+}
+#header-left-content ul li i{
+    font-size: .9rem;
+    margin-right: .6rem;
+    border-radius: 50%;
+}
+#vedio-play i{
+    padding: .2rem ;
+}
+#first-btn{
+    padding: .8rem 1.55rem;
+    background-color: var(--first-btn-color);
+    border: none;
+    outline: none;
+    border-radius: .8rem;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.11rem;
+    margin-right: .8rem;
+    cursor: pointer;
+}
+#btn{
+    padding: .8rem 1.55rem;
+    cursor: pointer;
+    background-color: var(--second-btn-color);
+    border: none;
+    outline: none;
+    border-radius: .8rem;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.11rem;
+}
+#header-content-container{
+    position: relative;
+}
+#header-right{
+    position: absolute;
+    float: right;
+    right: 10%;
+    top: 0;
+    max-width: 40%;
+}
+#header-right img{
+    max-width: 100%;
+}
