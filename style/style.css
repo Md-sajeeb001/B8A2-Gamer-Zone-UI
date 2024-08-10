@@ -17,6 +17,20 @@ body{
     --secondary-text-color: #534c64;
     --footer-color: #0B0223;
 }
+/* --------quick style-------- */
+#h2-tag-style{
+    font-weight: bold;
+    font-size: 2rem;
+    background-image: linear-gradient(rgb(249, 72, 178), rgb(135, 88, 241));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#p-tag{
+    color: var(--secondary-text-color);
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    padding: 1.11rem 0;
+}
 /* =================== NEBAR SECTION =================== */
 #navbar{
     display: flex;
@@ -134,8 +148,33 @@ body{
     float: right;
     right: 10%;
     top: 0;
-    max-width: 40%;
+    max-width: 35%;
 }
 #header-right img{
     max-width: 100%;
+}
+/* =========================== SECOND SECTION ============================== */
+#second-section{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--second-section-color);
+    padding: 3rem 10%;
+}
+#second-content-section{
+    text-align: right;
+}
+#second-img-section{
+    max-width: 48%;
+}
+#second-img-section img{
+    max-width: 100%;
+}
+#section-span {
+    padding-top: 2rem ;
+    color: var(--secondary-text-color);
+    font-weight: 400;
+}
+#section-span span{
+    font-size: 1.55rem;
+    font-weight: 600;
 }
