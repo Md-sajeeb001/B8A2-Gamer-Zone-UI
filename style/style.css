@@ -17,20 +17,7 @@ body{
     --secondary-text-color: #534c64;
     --footer-color: #0B0223;
 }
-/* --------quick style-------- */
-#h2-tag-style{
-    font-weight: bold;
-    font-size: 2rem;
-    background-image: linear-gradient(rgb(249, 72, 178), rgb(135, 88, 241));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-#p-tag{
-    color: var(--secondary-text-color);
-    font-size: 1.1rem;
-    line-height: 1.6rem;
-    padding: 1.11rem 0;
-}
+
 /* =================== NEBAR SECTION =================== */
 #navber-section{
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.184);
@@ -86,58 +73,77 @@ body{
     color: red;
 }
 /* =================== HEADER MAIN SECTION================== */
+#header-main-section{
+    display: flex;
+    /* justify-content: space-around; */
+}
 #header-left{
-    max-width: 50%;
-    background: url('../images/first-bg.png');
-    border: 1px solid black;
-    background-size: contain;
-    background-repeat: no-repeat;
+    /* display: block; */
+    max-width: 45%;
+    position: relative;
+}
+#header-left img{
+    max-width: 100%;
 }
 #header-content{
-    padding: 7rem 18%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
 }
 #header-content h2{
-    font-size: 2.3rem;
-    font-weight: 700;
+    font-size: 2rem;
+    font-weight: 600;
 }
 #header-content h1{
-    font-size: 4rem;
-    font-weight: bolder;
-    margin: .6rem 0;
+    font-size: 3.5rem;
+    font-weight: bold;
     background: linear-gradient(rgb(249, 72, 178), rgb(135, 88, 241));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.18);
+    text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.169);
+    margin: .5rem 0;
 }
 #header-content p{
     font-size: 1.1rem;
-    font-weight: 500;
+    font-weight: 400;
     color: var(--secondary-text-color);
-    margin: 1rem 0;
+    padding: .7rem 0;
 }
 #header-content i{
     color: black;
-    margin-right: .5rem;
+    padding-right: .8rem;
+}
+#header-right{
+    max-width: 40%;
+    margin-left: 5rem;
+}
+#header-right img{
+    max-width: 100%;
 }
 #btn-section{
-    margin-top: 2rem;
+    margin-top: 1.2rem;
 }
 #btn{
-    padding: 1.1rem 2rem;
+    padding: 1rem 2rem;
     border: none;
-    border-radius: 2rem;
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 500;
     background-color: var(--first-btn-color);
+    border-radius: 2rem;
 }
 #btn2{
-    padding: 1.1rem 2rem;
+    padding: 1rem 2rem;
     border: none;
-    border-radius: 2rem;
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 500;
     background-color: var(--second-btn-color);
+    border-radius: 2rem;
     margin-left: .8rem;
+}
+/* ========================= GAMER SECTION ========================== */
+#gamer-section{
+    background-color: var(--second-section-color);
+    padding: 3rem 9%;
 }
